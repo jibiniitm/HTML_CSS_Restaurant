@@ -1,0 +1,271 @@
+html {
+
+    font-size: 62.5%;     /* changes a default 16px font size to 10px */
+  
+  }
+
+nav{
+    background: #683636;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 2rem;   
+    margin: 0; 
+}
+
+.u11{
+    display: flex;     
+    flex-wrap: wrap; 
+        justify-content: space-evenly;
+        align-items: center;    
+}
+
+.main{
+    color: white;
+    
+    text-decoration: none;
+    padding: 1rem;
+    background-color: transparent;
+    border:none;
+    border-top: 0.4rem solid white;
+    border-bottom: 0.4rem solid white;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+}
+
+.td2{    
+    color: white;
+    text-decoration: none;
+    padding: 3.3rem 12rem;
+    font-size: 3rem;
+}
+
+/* Flex styles*/
+nav a:hover{
+    background-color: #555;
+    }
+
+.fd{
+    background-color: rgb(254, 230, 233);
+    
+}
+
+.dr{
+    background-color: rgb(219, 232, 246);
+}
+
+.dsrt{
+    background-color: rgb(246, 246, 224);
+}
+
+#tab{
+    display: grid;
+    grid-column-gap: 0px;    
+    grid-template-columns: 380px 180px 270px;  
+    justify-items: center;
+    padding: 2rem 48rem;    
+    border: 2px solid silver;
+    background-color: #683636;
+   
+}
+
+.tab-item{        
+    font-size: 3.5rem;       
+    border-radius: 8rem;
+    padding: 2rem;  
+     
+
+}
+    
+.intab{
+    text-decoration: none;
+    color: darkred;
+    margin-bottom: 0px;
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 8rem;
+    box-shadow: 10px 10px 5px rgb(173, 188, 193);
+}
+
+.row{
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.price{
+    font-size: 2.5rem;
+    background-color: silver;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-family:sans-serif;
+    margin-right: 15rem;
+    float: right;
+}
+
+
+#grid{    
+    display: grid;
+    padding: 15px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+    grid-template-columns: auto auto auto;
+     
+     
+}
+
+.grid-item1{
+    background-color: rgb(41, 25, 25);
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    
+    border-radius: 1.3rem;    
+    box-shadow: 0 0.6rem 0.5rem rgba(16, 12, 12, 0.4); 
+}
+
+.grid-item2{       
+    background-color: rgb(41, 25, 25);     
+    font-family:'Lucida Sans';
+    font-size: 2rem;       
+    padding: 1rem;
+    border-radius: 1.3rem;  
+    box-shadow: 0 0.6rem 0.5rem rgba(16, 12, 12, 0.4);     
+}
+
+
+.hrs {    
+    justify-items: center;
+    
+}
+
+.hrs td{
+    color: white;
+    padding: 2rem;
+}
+
+
+
+.grid-item3{   
+    background-image:url(chalkboard.jpg);
+    background-size: cover; 
+    text-align: left;    
+    border-radius: 1.3rem;   
+    box-shadow: 0 0.6rem 0.5rem rgba(16, 12, 12, 0.4);  
+}
+ 
+.titl{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans';
+    font-size: 2.5rem;    
+    padding: 0.5rem 7rem;       
+}
+
+
+input[type = text]{
+    background-color: transparent;
+    width: 60%;
+    margin-left: 70px;    
+    border-radius: 1rem;  
+    background-color: transparent;    
+    padding: 2rem 9rem 2rem 1rem;  
+    color: white;
+    font-size: 1.8rem;  
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+input[type = email]{    
+    margin-left: 70px;  
+    width: 60%;
+    border-radius: 1rem;  
+    background-color: transparent;  
+    padding: 2rem 9rem 2rem 1rem;  
+    color: white;
+    font-size: 1.8rem;  
+}
+
+#sm{
+width: 40px; 
+height: 40px;
+border-radius: 30px;
+margin-left: 100px;
+}
+
+p{
+    color: black; 
+    font-size: 2rem;
+    line-height: 2;
+    font-family: 'Lucida Sans Regular';    
+}
+
+textarea{
+
+    border-radius: 1rem; 
+    margin-left: 70px; 
+    font-size: 1.8rem;
+    background-color: transparent; 
+    color: white;
+}
+
+input[type = submit]{
+    background-color: transparent;
+    border: 1px solid silver;
+    padding: 18px 200px;     
+    color: white;    
+    margin-left: 70px;
+    text-decoration: none;    
+    font-size: 2rem;    
+    border-radius: 1rem; 
+    }
+
+input[type = submit]:hover{
+    background-color: rgb(95, 53, 53);
+    }
+
+    .top {
+        position: sticky;
+        float: right;
+        margin-right: 10px; 
+        bottom: 1px;     
+        }
+
+        .menu {
+            display: none
+        }
+        
+        .div1{
+            text-align: center;
+           
+        }
+        .tablink:hover {
+          background-color: red;
+        }
+        .tablink.active {
+          background-color: white;
+          border-bottom: 2px solid red;
+        }
+        .tablink {
+          display: inline-block;
+          padding: 15px 210px;
+          text-decoration: none;
+          color: black;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          background-color: #f0f0f0;
+          transition: background-color 0.3s ease;
+        }
+        .div2{
+            padding: 32px;
+            background-color: white;
+        }
+        .span1{
+            background-color: darkgrey;
+            border-radius: 10px;
+            float:right;
+            padding: 10px;
+        }

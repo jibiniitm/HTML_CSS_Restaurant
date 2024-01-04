@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant - The Local</title>
+    <link rel="stylesheet" href="Jibs_project1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="div1">
+        <nav class="n2">
+    
+            <ul class="u11">        
+                <li class="main">The LOCAL</li>
+                <li><a href="" class="td2">HOME</a></li> 
+                <li><a href="" class="td2"> 🔥Deals🔥</a></li>           
+                <li><a href="" class="td2">About us</a></li>
+                <li><a href="#info" class="td2">Contact us</a></li> 
+            </ul>
+        </nav>              
+    </div> 
+    <div id="bgbox" style="background-color: aliceblue;"></div>
+
+<!-- Menu Container -->
+
+  
+<div id="menu">
+
+<!-- javascript:void(0) used with <a> creates a hyperlink that doesn't perform any action when clicked. It effectively prevents the browser from navigating to a new page -->
+
+    <div id="tab">        
+            <div class="tab-item"><a href="javascript:void(0)" onclick="openMenu(event, 'Main_course');" id="myLink" class="intab">Main Course</a></div>
+            <div class="tab-item"><a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');" class="intab">Drinks</a></div>
+            <div class="tab-item"><a href="javascript:void(0)" onclick="openMenu(event, 'Dessert');" class="intab">Dessert</a></div>
+    </div> 
+    
+    <div id="Main_course" class="menu">
+    <ul class="fd" id="Main_course" style="list-style: none; margin-top: 0px;">
+        <li>        
+            <div class="row">
+                <div class>
+                    <h2><b>Chicken schnitzel </b><span class="price"><sup>Fr</sup>13.95</span></h2>
+                    <img src="schnitzel.jpg" alt="schnitzel" style="height: 200px;
+                    width: 200px; border-radius:100px;">
+                    <p>ingredient1, ingredient2, ingredient3, viele ingredients..</p>
+                </div>
+            </div>
+        </li>
+        <hr>
+
+        <li>        
+            <div class="row">
+            <div class>
+            <h2> <b>Lasagne "Bolognese"</b><span class="price"><sup>Fr</sup>15.50</span></h2>
+            <img src="lasagne.png" alt="lasagne" style="height: 200px;
+            width: 200px; border-radius: 100px;">
+            <p>ingredient1, ingredient2, ingredient3, viele ingredients..</p>
+            </div>
+            </div>
+        </li>
+        <hr>
+
+        <li>        
+            <div class="row">
+            <div class>
+            <h2>Älpler Maggronen <span class="price"><sup>Fr</sup>17.35</span></h2>
+            <img src="Alpler.jpg" alt="Alpler" style="height: 200px;
+            width: 200px; border-radius: 100px;">
+            <p >ingredient1, ingredient2, ingredient3, many ingredients..</p>
+            </div>
+            </div>
+        </li>
+        <hr>
+
+        <li>        
+            <div class="row">
+            <div class>
+            <h2>HamBurger <span class="price"><sup>Fr</sup>11.50</span></h2>
+            <img src="hamburger.jpg" alt="Ham" style="height: 200px;
+            width: 200px; border-radius: 100px;"> 
+            <p>ingredient1, ingredient2, ingredient3, viele ingredients..</p>
+            </div>            
+            </div>
+        </li>
+        <hr>       
+        
+        <li>     
+            <div class="row">
+            <div class>
+            <h2>Ravioli with Spinach-Ricotta <span class="price"><sup>Fr</sup>20.75</span></h2>
+            <img src="Ravioli.jpeg" alt="Ravioli" style="height: 200px;
+            width: 200px; border-radius: 100px;"> 
+            <p>ingredient1, ingredient2, ingredient3, viele ingredients..</p>
+            </div>
+            </div>
+        </li>
+        <hr>    
+
+        <li>        
+            <div class="row">
+            <div class>
+            <h2>Vegi Balls <span class="price"><sup>Fr</sup>18.00</span></h2>
+            <img src="Vegiballs.jpg" alt="vegiballs" style="height: 200px;
+            width: 200px; border-radius: 100px;"> 
+            <p>ingredient1, ingredient2, ingredient3, viele ingredients..</p>
+            </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div id="Drinks" class="menu">
+    <ul class="dr" id="Drinks" style="list-style: none;">
+        <li> 
+            <div class="row">
+            <div>
+            <h2 class>Hot Tea <span class="price"><sup>Fr</sup>7.00</span></h2> 
+            <p>Green/Jasmine/Chamomile/White/Black</p>
+            </div>
+            </div>
+        </li>
+        <hr>    
+
+        <li>        
+            <div class="row">
+            <div class>
+            <h2>Coffee <span class="price"><sup>Fr</sup>5.50</span></h2> 
+            <p>Café/Café with milk/Espresso/Capuccino/Café Latte</p>
+            </div>
+            </div>
+        </li>
+        <hr>    
+
+        <li>        
+            <div class="row">
+            <div class>
+            <h2>Fresh Juice <span class="price"><sup>Fr</sup>8.00</span></h2> 
+            <p>Apple/Orange/Grapes/Strawberry/Kiwi</p>
+            </div>
+            </div>
+        </li>
+        <hr>    
+        
+        <li>        
+            <div class="row">
+            <div class>
+            <h2>With Alcohol <span class="price"><sup>Fr</sup>8.50</span></h2> 
+            <p>Beer/Spritz/Red Wine/White Wine</p> 
+            </div>
+            </div>
+        </li>  
+        <hr>          
+        
+        <li>        
+            <div class="row">
+            <div class>
+            <h2>Soft Drinks <span class="price"><sup>Fr</sup>4.75</span></h2> 
+            <p>Coke/Pepsi/Rivella/Gazzosa/Flauder/Pepita </p>
+            </div>
+            </div>
+        </li>
+
+    </ul>
+    </div>
+
+   <div id="Dessert" class="menu">
+
+    <ul class="dsrt" id="Dessert" style="list-style: none;">
+        <li>    
+            <div class="row">        
+            <div class>
+            <h2>Chocolate Mousse <span class="price"><sup>Fr</sup>17.00</span></h2> 
+            <img src="mousse.jpg" alt="chocomousse" style="height: 200px;
+            width: 200px; border-radius: 100px;">
+            <p>dieser, diese, dieses und dass</p>
+            </div>
+            </div>
+        </li>
+        <hr>    
+
+        <li>        
+            <div class="row">
+            <div class>
+            <h2>Crème brûlée <span class="price"><sup>Fr</sup>19.00</span></h2> 
+            <img src="crembrule.jpg" alt="crembrule" style="height: 200px;
+            width: 200px; border-radius: 100px;">
+            <p>dieser, diese, dieses und dass</p>
+            </div>
+            </div>
+        </li>
+        <hr>    
+
+        <li>        
+            <div class="row">
+            <div class>
+            <h2>Apple-Sorbet <span class="price"><sup>Fr</sup>20.00</span></h2> 
+            <img src="sorbet.jpg" alt="sorbet" style="height: 200px;
+            width: 200px; border-radius: 100px;">
+            <p>dieser, diese, dieses und dass</p>
+            </div>
+            </div>
+        </li>
+        <hr>    
+
+        <li>
+            <div class="row">
+            <div class>
+            <h2>Cassata <span class="price"><sup>Fr</sup>19.00</span></h2> 
+            <img src="cassata.jpg" alt="cassata" style="height: 200px;
+            width: 200px; border-radius: 100px;">
+            <p>dieser, diese, dieses und dass</p>
+            </div>
+            </div>
+        </li>
+        <hr>    
+
+        <li>
+            <div class="row">
+            <div class>
+            <h2>Ice-cream (of choice) <span class="price"><sup>Fr</sup>5.50 </span></h2> 
+            <img src="ice.jpg" alt="ice" style="height: 200px;
+            width: 200px; border-radius: 100px;">
+            <p>Vanilla/Strawberry/Pistaccio/Chocolate (price per scoop)</p>
+            </div>
+            </div>        
+        </li>        
+    </ul> 
+    </div>
+    <br><br> 
+</div>
+
+    <div class="row">
+
+    <div id="grid">
+
+        <div class="grid-item1">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2702.7922662964734!2d8.525568454182787!3d47.
+            357453531045145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDfCsDIxJzI2LjgiTiA4wrAzMSc0OS42IkU!5e0!3m2!1sen!
+            2sin!4v1704021754970!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe> <br><br> <br><br><br><br><br><br>
+            <p style="color: white; font-family: 'Lucida Sans';">Connect with us: &nbsp;&nbsp;&nbsp; <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-twitter" style="font-size:40px;color:lightblue;
+                text-shadow:2px 2px 4px #000000;"></i></a> &nbsp;&nbsp;&nbsp;
+             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" style="font-size:40px;color:rgb(8, 189, 249);text-shadow:2px 2px 4px #000000;"></i></a>   &nbsp;&nbsp;&nbsp;
+                <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram" style="font-size:40px;color:orange;text-shadow:2px 2px 4px #000000;"></i></a> </p>                            
+        </div>            
+
+        <div class="grid-item2"> 
+            <h2 style="text-align: center; color: white;"> <u>working hours </u></h2>
+            <table class="hrs">
+                <tr>
+                    <td>Monday</td>
+                    <td>09:00</td>
+                    <td>-</td>
+                    <td>18:00</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>09:00</td>
+                    <td>-</td>
+                    <td>18:00</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>09:00</td>
+                    <td>-</td>
+                    <td>18:00</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>09:00</td>
+                    <td>-</td>
+                    <td>18:00</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>09:00</td>
+                    <td>-</td>
+                    <td>18:00</td>
+                </tr>
+                <tr>
+                    <td style="color: rgb(20, 213, 20);">Saturday</td>
+                    <td style="color: rgb(20, 213, 20);">10:00</td>
+                    <td style="color: rgb(20, 213, 20);">-</td>
+                    <td style="color: rgb(20, 213, 20);">22:00</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td colspan="3">we are <span style="color: red;">closed </span></td>
+                </tr>                                      
+                
+            </table> <br><br>
+               
+            <img src="tel1.png" alt="tel" id="sm" > <span style="color: white;"> &nbsp; 061 796 654</span>               
+        </div> 
+
+        <div class="grid-item3" id="info">
+            <form>
+                <h2 style="text-align: left; margin-left: 20px;"class="titl" >Get in Touch . . .</h2>
+                <input type="text" placeholder="Enter your name"><br> <br> <br>
+                <input type="email"  placeholder="Enter your email address"><br> <br> <br>
+                <label for="description"></label> <br>                
+                <textarea rows="4" cols="50" placeholder="Write your message here..."></textarea><br><br><br>
+                 <input type="submit" value="Send Message" class="links3"><br> <br>        
+            </form>
+        </div>   
+
+
+    </div>
+    
+    <a href="#" class="top"><img src="goup.png"  height="80px"  alt="To top"></a>
+
+    <script>
+        // Tabbed Menu
+        function openMenu(event, menuName) {
+          var i, x;
+          x = document.getElementsByClassName("menu");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }         
+         
+          document.getElementById(menuName).style.display = "block";
+          
+        }
+        document.getElementById("myLink").click();
+        </script>
+</body>
+</html>
